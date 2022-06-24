@@ -1,0 +1,295 @@
+<html> 
+
+ <head> 
+
+ </head> 
+
+ <body> 
+
+ <html> 
+
+  </style> 
+
+ <body style ="background-color:powderblue;"> 
+
+ <body background ="s.jpg"> 
+
+ <div class="fb-body"> 
+
+          <div id="intro2" class="fb-body"><hr><b><h1><center>CLICK TECHNOLOGIES</div> 
+
+          <div id="intro3" class="fb-body"><h3><center>Follow your path. 
+
+          <img src="img3.jpg" class="w3-round" alt="Logo"><br> 
+
+          <hr></div> 
+
+ <div id="form1" class="fb-header">Email or Phone<br> 
+
+ <input placeholder="Email" type="mail" name="name" /><br> 
+
+ <div id="form2" class="header">Password<br> 
+
+ <input placeholder="Password" type="password" name="password" /><br> 
+
+ <br> 
+
+ <b>Forgotten your password?<br> 
+
+  <input type="submit" class="submit" value="login"/><hr> 
+
+ </div> 
+
+ </div> 
+
+  </div> 
+
+  <style type="text/css">fieldset {   
+
+             border: #15cc34 2px solid;   
+
+             padding: 5px;   
+
+             color: brown;  </style> 
+
+  <fieldset> 
+
+  <h1><center>NEW MEMBERS FORUM</h2> 
+
+  <h4>ENROLLMENT DEADLINE : 
+
+  <!-- Display the countdown timer in an element --> 
+
+  <p id="demo"></p> 
+
+  <h3><center> Register Today</center><hr> 
+
+  <script> 
+
+  var countDownDate = new Date("september 20, 2022 00:00:00").getTime(); 
+
+  var x = setInterval(function() { 
+
+  var now = new Date().getTime(); 
+
+  var distance = countDownDate - now; 
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24)); 
+
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); 
+
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)); 
+
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000); 
+
+  document.getElementById("demo").innerHTML = days + " Days " + hours + " Hours " 
+
+  + minutes + " Minutes " + seconds + " Seconds "; 
+
+  if (distance < 0) { 
+
+  clearInterval(x); 
+
+  document.getElementById("demo").innerHTML = "ENROLLMENT ENDED "+ -1* days +" Days and " +-1*hours + " Hours"+" ago"; 
+
+  } 
+
+  }, 1000); 
+
+  </script> 
+
+  <center> 
+
+  <div id="form3" class="body"> 
+
+  <div class="custom-select" style="width:200px;"> 
+
+  <select> 
+
+  <option value="0">DIVISION :</option> 
+
+  <option value="1">News alert</option> 
+
+  <option value="2">Photography</option> 
+
+  <option value="3">Web Design</option> 
+
+  <option value="4">Coding</option> 
+
+  <option value="5">Database</option> 
+
+  <option value="6">Information systems</option> 
+
+  <option value="7">Software systems</option> 
+
+  <option value="8">Filming</option> 
+
+  <option value="9">Blogging</option> 
+
+  <option value="10">Marketing</option> 
+
+  <option value="11">Spreadsheet</option> 
+
+  <option value="12">Reference</option> 
+
+  </select> 
+
+  </div></center><hr> 
+
+           <input placeholder="First Name" type="text" id="namebox"/><br><br> 
+
+          <input placeholder="Last Name" type="text" id="namebox"  /> <br><br> 
+
+          <input placeholder="Email Address" type="text" id="mailbox" /><br><br> 
+
+          <input placeholder="Re-enter email" type="text" id="mailbox"  /><br><br> 
+
+          <input placeholder="Password" type="password" id="mailbox"  /><br><br> 
+
+          <input type="date" id="namebox"  /><br><br> 
+
+          <input type="radio" id="r-b" name="sex" value="Male" />Male 
+
+          <input type="radio" id="r-b" name="sex" value="Female" />Female<br><br></center> 
+
+ <button type="submit" onclick="alert('Enrollment to ClicTech Successfull ! ')">Enroll</button> 
+
+      </div> 
+
+      <html> 
+
+      <head> 
+
+      <style> 
+
+      .collapsible { 
+
+      background-<html>color: #555; 
+
+      color: red; 
+
+      cursor: pointer; 
+
+      padding: 10px; 
+
+      width: 100%; 
+
+      border: none; 
+
+      text-align: left; 
+
+      outline: none; 
+
+      font-size: 15px; 
+
+      } 
+
+      .active, .collapsible:hover { 
+
+      background-color: #880; 
+
+      } 
+
+      .content { 
+
+      padding: -10 100px; 
+
+      display: none; 
+
+      overflow: hidden; 
+
+      background-color: #677; 
+
+      } 
+
+      </style> 
+
+      </head> 
+
+      </fieldset> 
+
+      <body> 
+
+      <h2>ClicTech Inc. </h2> 
+
+      <p>OPERATIONS</p> 
+
+      <button type="button" class="collapsible">About us</button> 
+
+      <div class="content"> 
+
+      <p>Our staff is focused on Quality customer Service </p> 
+
+      </div> 
+
+      <p>DEPARTMENTS</p> 
+
+      <button type="button" class="collapsible">Information Systems</button> 
+
+      <div class="content"> 
+
+      <p>Developing New Technology solutions</p> 
+
+      </div> 
+
+      <button type="button" class="collapsible">Hardware & Software</button> 
+
+      <div class="content"> 
+
+      <p>Advancing in AI</p> 
+
+      </div> 
+
+      <button type="button" class="collapsible">Photography</button> 
+
+      <div class="content"> 
+
+      <p>Quality Filming and Slow motion pictures</p> 
+
+      </div> 
+
+      <script> 
+
+      var coll = document.getElementsByClassName("collapsible"); 
+
+      var i; 
+
+      for (i = 0; i < coll.length; i++) { 
+
+      coll[i].addEventListener("click", function() { 
+
+      this.classList.toggle("active"); 
+
+      var content = this.nextElementSibling; 
+
+      if (content.style.display === "block") { 
+
+      content.style.display = "none"; 
+
+      } else { 
+
+      content.style.display = "block"; 
+
+      } 
+
+      }); 
+
+      } 
+
+      </script> 
+
+      </body> 
+
+      </html> 
+
+  
+
+ <br><div class="footer"> 
+
+         <br><div id="footer-base" class="footer">Initiative by Anthony Bourdain Shani<br><hr> 
+
+         Sign Up        &copy; www.reunion.com &nbsp;&nbsp;  
+
+ </body> 
+
+ </html>
